@@ -7,6 +7,9 @@ app_color = "grey"
 app_email = "admin@fitness_wellness.com"
 app_license = "MIT"
 
+app_include_css = "/assets/fitness_wellness/css/fitness_wellness.bundle.css"
+app_include_js = "/assets/fitness_wellness/js/fitness_wellness.bundle.js"
+
 scheduler_events = {
     "daily": [
         "fitness_wellness.tasks.send_membership_expiry_reminders",
