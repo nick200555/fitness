@@ -1,0 +1,7 @@
+{
+ "app_name": "fitness_wellness",
+ "doctype": "Module Def",
+ "module_name": "Billing",
+ "name": "Billing",
+ "restrict_to_domain": ""
+}

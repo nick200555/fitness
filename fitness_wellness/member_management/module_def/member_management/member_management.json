@@ -1,0 +1,7 @@
+{
+ "app_name": "fitness_wellness",
+ "doctype": "Module Def",
+ "module_name": "Member Management",
+ "name": "Member Management",
+ "restrict_to_domain": ""
+}
