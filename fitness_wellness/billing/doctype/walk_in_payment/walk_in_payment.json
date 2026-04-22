@@ -87,7 +87,7 @@
  "modified": "2026-01-01 00:00:00",
  "modified_by": "Administrator",
  "module": "Billing",
- "name": "Walk-In Payment",
+ "name": "Walk In Payment",
  "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [],
