@@ -1,0 +1,8 @@
+{
+    "fitness_wellness/public/js/fitness_wellness.min.js": [
+        "public/js/fitness_wellness.js"
+    ],
+    "fitness_wellness/public/css/fitness_wellness.min.css": [
+        "public/css/fitness_wellness.css"
+    ]
+}
