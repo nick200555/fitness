@@ -1,8 +1,0 @@
-{
-    "fitness_wellness.bundle.js": [
-        "fitness_wellness/public/js/fitness_wellness.bundle.js"
-    ],
-    "fitness_wellness.bundle.css": [
-        "fitness_wellness/public/css/fitness_wellness.bundle.css"
-    ]
-}
