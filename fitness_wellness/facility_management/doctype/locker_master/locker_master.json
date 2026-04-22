@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "locker_number",
+  "locker_zone",
+  "locker_size",
+  "monthly_charge",
+  "status",
+  "assigned_member",
+  "assignment_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "locker_number",
+   "fieldtype": "Data",
+   "label": "Locker Number"
+  },
+  {
+   "fieldname": "locker_zone",
+   "fieldtype": "Data",
+   "label": "Locker Zone"
+  },
+  {
+   "fieldname": "locker_size",
+   "fieldtype": "Select",
+   "label": "Locker Size",
+   "options": "Small\nMedium\nLarge"
+  },
+  {
+   "fieldname": "monthly_charge",
+   "fieldtype": "Currency",
+   "label": "Monthly Charge"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nOccupied\nMaintenance"
+  },
+  {
+   "fieldname": "assigned_member",
+   "fieldtype": "Link",
+   "label": "Assigned Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "assignment_date",
+   "fieldtype": "Date",
+   "label": "Assignment Date"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "FacilityManagement",
+ "name": "Locker Master",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

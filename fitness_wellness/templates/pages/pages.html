@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness &amp; Wellness Management System</title>
+    <meta name="description" content="Manage memberships, classes, trainers, nutrition and billing for your fitness centre with the FWS portal.">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; color: #333; }
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+            color: #fff; padding: 1rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        header h1 { font-size: 1.4rem; letter-spacing: 1px; }
+        header nav a { color: #e0e0e0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }
+        header nav a:hover { color: #4CAF50; }
+        .hero {
+            background: linear-gradient(135deg, #0f3460 0%, #e94560 100%);
+            color: #fff; text-align: center; padding: 5rem 2rem;
+        }
+        .hero h2 { font-size: 2.8rem; margin-bottom: 1rem; }
+        .hero p  { font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem; opacity: 0.9; }
+        .hero a  {
+            background: #4CAF50; color: #fff; padding: 0.8rem 2.5rem;
+            border-radius: 40px; text-decoration: none; font-weight: 600;
+            transition: background 0.3s;
+        }
+        .hero a:hover { background: #388E3C; }
+        .features { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 3rem 2rem; justify-content: center; }
+        .card {
+            background: #fff; border-radius: 12px; padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+            flex: 1 1 260px; max-width: 300px; text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-4px); }
+        .card .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; color: #0f3460; }
+        .card p  { font-size: 0.9rem; color: #666; line-height: 1.6; }
+        .plans { background: #1a1a2e; color: #fff; padding: 3rem 2rem; text-align: center; }
+        .plans h2 { font-size: 2rem; margin-bottom: 2rem; }
+        .plan-grid { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
+        .plan-card {
+            background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 12px; padding: 2rem; min-width: 200px;
+        }
+        .plan-card h3 { color: #4CAF50; font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .plan-card .price { font-size: 2rem; font-weight: 700; }
+        .plan-card p { font-size: 0.85rem; opacity: 0.7; margin-top: 0.5rem; }
+        footer { background: #0f3460; color: rgba(255,255,255,0.6); text-align: center; padding: 1.5rem; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>&#127947; FWS — Fitness &amp; Wellness</h1>
+    <nav>
+        <a href="#">Memberships</a>
+        <a href="#">Classes</a>
+        <a href="#">Trainers</a>
+        <a href="#">Nutrition</a>
+        <a href="/login">Member Login</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Your Fitness Journey Starts Here</h2>
+    <p>A complete fitness &amp; wellness management platform — memberships, class scheduling, trainer assignments, nutrition planning, and billing — all in one place.</p>
+    <a href="/login">Get Started</a>
+</section>
+
+<section class="features">
+    <div class="card"><div class="icon">&#128100;</div><h3>Member Management</h3><p>End-to-end member lifecycle — onboarding, subscriptions, attendance, freeze &amp; referral programs.</p></div>
+    <div class="card"><div class="icon">&#128197;</div><h3>Class Scheduling</h3><p>Manage yoga, Zumba, HIIT, spinning and more with real-time capacity and waitlists.</p></div>
+    <div class="card"><div class="icon">&#127947;</div><h3>Trainer Management</h3><p>Trainer profiles, certifications, PT assignments, availability slots and commission tracking.</p></div>
+    <div class="card"><div class="icon">&#128295;</div><h3>Facility &amp; Equipment</h3><p>Equipment register, maintenance schedules, AMC contracts and locker management.</p></div>
+    <div class="card"><div class="icon">&#128170;</div><h3>Health Assessments</h3><p>Body metric logs, fitness tests, goal tracking and progress photo journals.</p></div>
+    <div class="card"><div class="icon">&#127822;</div><h3>Nutrition &amp; Diet</h3><p>Personalised diet plans, meal templates, food item database and supplement logging.</p></div>
+    <div class="card"><div class="icon">&#128179;</div><h3>Billing &amp; Finance</h3><p>Membership invoices, walk-in POS, EMI schedules, refunds and daily cash reconciliation.</p></div>
+</section>
+
+<section class="plans">
+    <h2>Membership Plans</h2>
+    <div class="plan-grid">
+        <div class="plan-card"><h3>Basic</h3><div class="price">&#8377; Plans</div><p>Gym access only · Monthly validity</p></div>
+        <div class="plan-card"><h3>Standard</h3><div class="price">&#8377; Plans</div><p>Gym + Pool · Group classes included</p></div>
+        <div class="plan-card"><h3>Premium</h3><div class="price">&#8377; Plans</div><p>All facilities · PT sessions · Guest passes</p></div>
+        <div class="plan-card"><h3>Corporate</h3><div class="price">&#8377; Plans</div><p>B2B plans · Custom billing · Employee wellness</p></div>
+    </div>
+</section>
+
+<footer>&copy; 2026 Fitness &amp; Wellness Management System — Built on Frappe / ERPNext v15+</footer>
+</body>
+</html>

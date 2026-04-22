@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "member",
+  "dietitian",
+  "plan_name",
+  "start_date",
+  "end_date",
+  "goal",
+  "daily_calorie_target",
+  "protein_target_g",
+  "carbs_target_g",
+  "fat_target_g",
+  "water_intake_litres",
+  "meal_schedule",
+  "special_notes",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "DIET-.YYYY.-.####"
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "dietitian",
+   "fieldtype": "Link",
+   "label": "Dietitian",
+   "options": "Trainer Profile"
+  },
+  {
+   "fieldname": "plan_name",
+   "fieldtype": "Data",
+   "label": "Plan Name"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "goal",
+   "fieldtype": "Link",
+   "label": "Goal",
+   "options": "Fitness Goal"
+  },
+  {
+   "fieldname": "daily_calorie_target",
+   "fieldtype": "Float",
+   "label": "Daily Calorie Target"
+  },
+  {
+   "fieldname": "protein_target_g",
+   "fieldtype": "Float",
+   "label": "Protein Target (g)"
+  },
+  {
+   "fieldname": "carbs_target_g",
+   "fieldtype": "Float",
+   "label": "Carbs Target (g)"
+  },
+  {
+   "fieldname": "fat_target_g",
+   "fieldtype": "Float",
+   "label": "Fat Target (g)"
+  },
+  {
+   "fieldname": "water_intake_litres",
+   "fieldtype": "Float",
+   "label": "Water Intake (Litres)"
+  },
+  {
+   "fieldname": "meal_schedule",
+   "fieldtype": "Table",
+   "label": "Meal Schedule",
+   "options": "Diet Day"
+  },
+  {
+   "fieldname": "special_notes",
+   "fieldtype": "Text",
+   "label": "Special Notes"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nCompleted\nRevised"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Nutrition",
+ "name": "Diet Plan",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

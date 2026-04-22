@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "member",
+  "invoice",
+  "request_date",
+  "refund_reason",
+  "requested_amount",
+  "approved_amount",
+  "deductions_detail",
+  "approved_by",
+  "refund_mode",
+  "status",
+  "credit_note"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "REF-.YYYY.MM.-.####"
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Link",
+   "label": "Invoice",
+   "options": "Membership Invoice"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "refund_reason",
+   "fieldtype": "Select",
+   "label": "Refund Reason",
+   "options": "Medical\nRelocation\nDissatisfaction\nDuplicate Payment\nOther"
+  },
+  {
+   "fieldname": "requested_amount",
+   "fieldtype": "Currency",
+   "label": "Requested Amount"
+  },
+  {
+   "fieldname": "approved_amount",
+   "fieldtype": "Currency",
+   "label": "Approved Amount"
+  },
+  {
+   "fieldname": "deductions_detail",
+   "fieldtype": "Text",
+   "label": "Deductions Detail"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User"
+  },
+  {
+   "fieldname": "refund_mode",
+   "fieldtype": "Select",
+   "label": "Refund Mode",
+   "options": "Original Payment Mode\nBank Transfer\nWallet Credit"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nApproved\nProcessed\nRejected"
+  },
+  {
+   "fieldname": "credit_note",
+   "fieldtype": "Link",
+   "label": "Credit Note",
+   "options": "Credit Note"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Billing",
+ "name": "Refund Request",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

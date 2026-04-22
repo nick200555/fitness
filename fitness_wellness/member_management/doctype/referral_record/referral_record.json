@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "referrer",
+  "referred_member",
+  "referral_date",
+  "reward_type",
+  "reward_value",
+  "status",
+  "reward_applied_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "REF-.YYYY.MM.-.####"
+  },
+  {
+   "fieldname": "referrer",
+   "fieldtype": "Link",
+   "label": "Referrer",
+   "options": "Member"
+  },
+  {
+   "fieldname": "referred_member",
+   "fieldtype": "Link",
+   "label": "Referred Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "referral_date",
+   "fieldtype": "Date",
+   "label": "Referral Date"
+  },
+  {
+   "fieldname": "reward_type",
+   "fieldtype": "Select",
+   "label": "Reward Type",
+   "options": "Discount\nFree Month\nCash Credit\nGift"
+  },
+  {
+   "fieldname": "reward_value",
+   "fieldtype": "Currency",
+   "label": "Reward Value"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nQualified\nRewarded"
+  },
+  {
+   "fieldname": "reward_applied_on",
+   "fieldtype": "Date",
+   "label": "Reward Applied On"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "MemberManagement",
+ "name": "Referral Record",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

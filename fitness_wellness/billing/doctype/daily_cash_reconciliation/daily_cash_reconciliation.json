@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reconciliation_date",
+  "shift",
+  "opening_cash",
+  "cash_collected",
+  "card_upi_total",
+  "total_receipts",
+  "expenses_paid",
+  "closing_cash_physical",
+  "expected_closing_cash",
+  "difference",
+  "remarks",
+  "reconciled_by",
+  "approved_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "reconciliation_date",
+   "fieldtype": "Date",
+   "label": "Reconciliation Date"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "label": "Shift",
+   "options": "Morning\nEvening\nFull Day"
+  },
+  {
+   "fieldname": "opening_cash",
+   "fieldtype": "Currency",
+   "label": "Opening Cash"
+  },
+  {
+   "fieldname": "cash_collected",
+   "fieldtype": "Currency",
+   "label": "Cash Collected"
+  },
+  {
+   "fieldname": "card_upi_total",
+   "fieldtype": "Currency",
+   "label": "Card / UPI Total"
+  },
+  {
+   "fieldname": "total_receipts",
+   "fieldtype": "Currency",
+   "label": "Total Receipts"
+  },
+  {
+   "fieldname": "expenses_paid",
+   "fieldtype": "Currency",
+   "label": "Expenses Paid"
+  },
+  {
+   "fieldname": "closing_cash_physical",
+   "fieldtype": "Currency",
+   "label": "Closing Cash (Physical)"
+  },
+  {
+   "fieldname": "expected_closing_cash",
+   "fieldtype": "Currency",
+   "label": "Expected Closing Cash"
+  },
+  {
+   "fieldname": "difference",
+   "fieldtype": "Currency",
+   "label": "Difference"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "reconciled_by",
+   "fieldtype": "Link",
+   "label": "Reconciled By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Billing",
+ "name": "Daily Cash Reconciliation",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

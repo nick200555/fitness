@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subscription",
+  "member",
+  "total_amount",
+  "no_of_instalments",
+  "instalment_amount",
+  "instalments",
+  "payment_mode",
+  "mandate_reference",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "subscription",
+   "fieldtype": "Link",
+   "label": "Subscription",
+   "options": "Member Subscription"
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "no_of_instalments",
+   "fieldtype": "Int",
+   "label": "No of Instalments"
+  },
+  {
+   "fieldname": "instalment_amount",
+   "fieldtype": "Currency",
+   "label": "Instalment Amount"
+  },
+  {
+   "fieldname": "instalments",
+   "fieldtype": "Table",
+   "label": "Instalments",
+   "options": "EMI Instalment"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "Card Auto-Debit\nUPI Mandate\nManual"
+  },
+  {
+   "fieldname": "mandate_reference",
+   "fieldtype": "Data",
+   "label": "Mandate Reference"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nCompleted\nDefaulted"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Billing",
+ "name": "EMI Schedule",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

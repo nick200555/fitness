@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "class_name",
+  "category",
+  "description",
+  "default_duration_minutes",
+  "max_capacity",
+  "min_capacity",
+  "intensity_level",
+  "required_equipment",
+  "calories_burned_avg",
+  "is_chargeable"
+ ],
+ "fields": [
+  {
+   "fieldname": "class_name",
+   "fieldtype": "Data",
+   "label": "Class Name"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Cardio\nStrength\nFlexibility\nMind-Body\nAqua"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "default_duration_minutes",
+   "fieldtype": "Int",
+   "label": "Default Duration (Minutes)"
+  },
+  {
+   "fieldname": "max_capacity",
+   "fieldtype": "Int",
+   "label": "Max Capacity"
+  },
+  {
+   "fieldname": "min_capacity",
+   "fieldtype": "Int",
+   "label": "Min Capacity"
+  },
+  {
+   "fieldname": "intensity_level",
+   "fieldtype": "Select",
+   "label": "Intensity Level",
+   "options": "Beginner\nIntermediate\nAdvanced\nAll Levels"
+  },
+  {
+   "fieldname": "required_equipment",
+   "fieldtype": "Long Text",
+   "label": "Required Equipment"
+  },
+  {
+   "fieldname": "calories_burned_avg",
+   "fieldtype": "Int",
+   "label": "Calories Burned (Avg)"
+  },
+  {
+   "fieldname": "is_chargeable",
+   "fieldtype": "Check",
+   "label": "Is Chargeable"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "ClassManagement",
+ "name": "Class Type",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "trainer_code",
+  "employee",
+  "specialization",
+  "experience_years",
+  "bio",
+  "photo",
+  "rating",
+  "max_pt_clients",
+  "pt_hourly_rate",
+  "commission_type",
+  "commission_rate",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "TRN-.YYYY.-.###"
+  },
+  {
+   "fieldname": "trainer_code",
+   "fieldtype": "Data",
+   "label": "Trainer Code"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "specialization",
+   "fieldtype": "Select",
+   "label": "Specialization",
+   "options": "Personal Training\nYoga\nZumba\nNutrition\nRehab\nGroup Fitness"
+  },
+  {
+   "fieldname": "experience_years",
+   "fieldtype": "Int",
+   "label": "Experience Years"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Long Text",
+   "label": "Bio"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Float",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "max_pt_clients",
+   "fieldtype": "Int",
+   "label": "Max PT Clients"
+  },
+  {
+   "fieldname": "pt_hourly_rate",
+   "fieldtype": "Currency",
+   "label": "PT Hourly Rate"
+  },
+  {
+   "fieldname": "commission_type",
+   "fieldtype": "Select",
+   "label": "Commission Type",
+   "options": "Fixed\nPercentage\nPer Session"
+  },
+  {
+   "fieldname": "commission_rate",
+   "fieldtype": "Float",
+   "label": "Commission Rate"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nOn Leave\nResigned"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "TrainerManagement",
+ "name": "Trainer Profile",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

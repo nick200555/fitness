@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member_subscription",
+  "freeze_from",
+  "freeze_to",
+  "reason",
+  "days_frozen",
+  "new_end_date",
+  "approved_by",
+  "doctor_certificate"
+ ],
+ "fields": [
+  {
+   "fieldname": "member_subscription",
+   "fieldtype": "Link",
+   "label": "Member Subscription",
+   "options": "Member Subscription"
+  },
+  {
+   "fieldname": "freeze_from",
+   "fieldtype": "Date",
+   "label": "Freeze From"
+  },
+  {
+   "fieldname": "freeze_to",
+   "fieldtype": "Date",
+   "label": "Freeze To"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Select",
+   "label": "Reason",
+   "options": "Medical\nTravel\nPersonal\nOther"
+  },
+  {
+   "fieldname": "days_frozen",
+   "fieldtype": "Int",
+   "label": "Days Frozen"
+  },
+  {
+   "fieldname": "new_end_date",
+   "fieldtype": "Date",
+   "label": "New End Date"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User"
+  },
+  {
+   "fieldname": "doctor_certificate",
+   "fieldtype": "Attach",
+   "label": "Doctor Certificate"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "MemberManagement",
+ "name": "Subscription Freeze",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

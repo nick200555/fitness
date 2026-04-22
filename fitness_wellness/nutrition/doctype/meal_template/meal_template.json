@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "template_name",
+  "meal_type",
+  "goal_type",
+  "items",
+  "total_calories",
+  "total_protein_g",
+  "total_carbs_g",
+  "total_fat_g"
+ ],
+ "fields": [
+  {
+   "fieldname": "template_name",
+   "fieldtype": "Data",
+   "label": "Template Name"
+  },
+  {
+   "fieldname": "meal_type",
+   "fieldtype": "Select",
+   "label": "Meal Type",
+   "options": "Breakfast\nMid-Morning\nLunch\nEvening Snack\nDinner\nPre-Workout\nPost-Workout"
+  },
+  {
+   "fieldname": "goal_type",
+   "fieldtype": "Select",
+   "label": "Goal Type",
+   "options": "Weight Loss\nMuscle Gain\nMaintenance\nEndurance"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Meal Item"
+  },
+  {
+   "fieldname": "total_calories",
+   "fieldtype": "Float",
+   "label": "Total Calories"
+  },
+  {
+   "fieldname": "total_protein_g",
+   "fieldtype": "Float",
+   "label": "Total Protein (g)"
+  },
+  {
+   "fieldname": "total_carbs_g",
+   "fieldtype": "Float",
+   "label": "Total Carbs (g)"
+  },
+  {
+   "fieldname": "total_fat_g",
+   "fieldtype": "Float",
+   "label": "Total Fat (g)"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Nutrition",
+ "name": "Meal Template",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

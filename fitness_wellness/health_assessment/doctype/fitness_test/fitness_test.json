@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "test_date",
+  "trainer",
+  "test_type",
+  "push_ups_count",
+  "pull_ups_count",
+  "plank_seconds",
+  "flexibility_cm",
+  "vo2_max_estimate",
+  "1rm_bench_kg",
+  "1rm_squat_kg",
+  "5km_run_minutes",
+  "overall_fitness_score",
+  "fitness_level"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "test_date",
+   "fieldtype": "Date",
+   "label": "Test Date"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Link",
+   "label": "Trainer",
+   "options": "Trainer Profile"
+  },
+  {
+   "fieldname": "test_type",
+   "fieldtype": "Select",
+   "label": "Test Type",
+   "options": "Initial\n3-Month\n6-Month\nAnnual\nPre-Event"
+  },
+  {
+   "fieldname": "push_ups_count",
+   "fieldtype": "Int",
+   "label": "Push-Ups Count"
+  },
+  {
+   "fieldname": "pull_ups_count",
+   "fieldtype": "Int",
+   "label": "Pull-Ups Count"
+  },
+  {
+   "fieldname": "plank_seconds",
+   "fieldtype": "Int",
+   "label": "Plank (Seconds)"
+  },
+  {
+   "fieldname": "flexibility_cm",
+   "fieldtype": "Float",
+   "label": "Flexibility (cm)"
+  },
+  {
+   "fieldname": "vo2_max_estimate",
+   "fieldtype": "Float",
+   "label": "VO2 Max Estimate"
+  },
+  {
+   "fieldname": "1rm_bench_kg",
+   "fieldtype": "Float",
+   "label": "1RM Bench (kg)"
+  },
+  {
+   "fieldname": "1rm_squat_kg",
+   "fieldtype": "Float",
+   "label": "1RM Squat (kg)"
+  },
+  {
+   "fieldname": "5km_run_minutes",
+   "fieldtype": "Float",
+   "label": "5km Run (Minutes)"
+  },
+  {
+   "fieldname": "overall_fitness_score",
+   "fieldtype": "Float",
+   "label": "Overall Fitness Score"
+  },
+  {
+   "fieldname": "fitness_level",
+   "fieldtype": "Select",
+   "label": "Fitness Level",
+   "options": "Poor\nBelow Average\nAverage\nGood\nExcellent"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "HealthAssessment",
+ "name": "Fitness Test",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

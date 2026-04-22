@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "equipment_code",
+  "equipment_name",
+  "category",
+  "brand",
+  "model_number",
+  "purchase_date",
+  "purchase_cost",
+  "asset",
+  "location",
+  "serial_number",
+  "warranty_expiry",
+  "amc_contract",
+  "status",
+  "last_service_date",
+  "next_service_due"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "EQP-.YYYY.-.####"
+  },
+  {
+   "fieldname": "equipment_code",
+   "fieldtype": "Data",
+   "label": "Equipment Code"
+  },
+  {
+   "fieldname": "equipment_name",
+   "fieldtype": "Data",
+   "label": "Equipment Name"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Cardio\nStrength\nFlexibility\nStudio\nPool\nUtility"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "model_number",
+   "fieldtype": "Data",
+   "label": "Model Number"
+  },
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Purchase Date"
+  },
+  {
+   "fieldname": "purchase_cost",
+   "fieldtype": "Currency",
+   "label": "Purchase Cost"
+  },
+  {
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "label": "Asset",
+   "options": "Asset"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "warranty_expiry",
+   "fieldtype": "Date",
+   "label": "Warranty Expiry"
+  },
+  {
+   "fieldname": "amc_contract",
+   "fieldtype": "Link",
+   "label": "AMC Contract",
+   "options": "AMC Contract"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Operational\nUnder Maintenance\nOut of Service\nScrapped"
+  },
+  {
+   "fieldname": "last_service_date",
+   "fieldtype": "Date",
+   "label": "Last Service Date"
+  },
+  {
+   "fieldname": "next_service_due",
+   "fieldtype": "Date",
+   "label": "Next Service Due"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "FacilityManagement",
+ "name": "Equipment Register",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

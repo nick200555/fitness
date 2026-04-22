@@ -1,0 +1,44 @@
+[
+ {
+  "doctype": "Role",
+  "name": "Fitness Manager",
+  "role_name": "Fitness Manager",
+  "desk_access": 1
+ },
+ {
+  "doctype": "Role",
+  "name": "Front Desk Executive",
+  "role_name": "Front Desk Executive",
+  "desk_access": 1
+ },
+ {
+  "doctype": "Role",
+  "name": "Trainer",
+  "role_name": "Trainer",
+  "desk_access": 1
+ },
+ {
+  "doctype": "Role",
+  "name": "Dietitian",
+  "role_name": "Dietitian",
+  "desk_access": 1
+ },
+ {
+  "doctype": "Role",
+  "name": "Member",
+  "role_name": "Member",
+  "desk_access": 1
+ },
+ {
+  "doctype": "Role",
+  "name": "Accounts Executive",
+  "role_name": "Accounts Executive",
+  "desk_access": 1
+ },
+ {
+  "doctype": "Role",
+  "name": "Facility Supervisor",
+  "role_name": "Facility Supervisor",
+  "desk_access": 1
+ }
+]

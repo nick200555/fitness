@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "class_schedule",
+  "session_date",
+  "position",
+  "notified",
+  "notification_time",
+  "accepted",
+  "expiry_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "class_schedule",
+   "fieldtype": "Link",
+   "label": "Class Schedule",
+   "options": "Class Schedule"
+  },
+  {
+   "fieldname": "session_date",
+   "fieldtype": "Date",
+   "label": "Session Date"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Int",
+   "label": "Position"
+  },
+  {
+   "fieldname": "notified",
+   "fieldtype": "Check",
+   "label": "Notified"
+  },
+  {
+   "fieldname": "notification_time",
+   "fieldtype": "Datetime",
+   "label": "Notification Time"
+  },
+  {
+   "fieldname": "accepted",
+   "fieldtype": "Check",
+   "label": "Accepted"
+  },
+  {
+   "fieldname": "expiry_time",
+   "fieldtype": "Datetime",
+   "label": "Expiry Time"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "ClassManagement",
+ "name": "Waitlist Entry",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "member",
+  "plan",
+  "start_date",
+  "end_date",
+  "actual_amount",
+  "discount_amount",
+  "payment_mode",
+  "emi_months",
+  "class_credits_remaining",
+  "pt_sessions_remaining",
+  "status",
+  "membership_invoice",
+  "sales_invoice",
+  "renewal_of",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "SUB-.YYYY.MM.-.####"
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "plan",
+   "fieldtype": "Link",
+   "label": "Plan",
+   "options": "Membership Plan"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "actual_amount",
+   "fieldtype": "Currency",
+   "label": "Actual Amount"
+  },
+  {
+   "fieldname": "discount_amount",
+   "fieldtype": "Currency",
+   "label": "Discount Amount"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "Cash\nCard\nUPI\nEMI\nCorporate"
+  },
+  {
+   "fieldname": "emi_months",
+   "fieldtype": "Int",
+   "label": "EMI Months"
+  },
+  {
+   "fieldname": "class_credits_remaining",
+   "fieldtype": "Int",
+   "label": "Class Credits Remaining"
+  },
+  {
+   "fieldname": "pt_sessions_remaining",
+   "fieldtype": "Int",
+   "label": "PT Sessions Remaining"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nFrozen\nExpired\nCancelled"
+  },
+  {
+   "fieldname": "membership_invoice",
+   "fieldtype": "Link",
+   "label": "Membership Invoice",
+   "options": "Membership Invoice"
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "renewal_of",
+   "fieldtype": "Link",
+   "label": "Renewal Of",
+   "options": "Member Subscription"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "MemberManagement",
+ "name": "Member Subscription",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

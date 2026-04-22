@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "log_date",
+  "weight_kg",
+  "bmi",
+  "body_fat_percentage",
+  "muscle_mass_kg",
+  "waist_cm",
+  "hip_cm",
+  "chest_cm",
+  "arm_cm",
+  "thigh_cm",
+  "resting_heart_rate",
+  "blood_pressure",
+  "measured_by",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "log_date",
+   "fieldtype": "Date",
+   "label": "Log Date"
+  },
+  {
+   "fieldname": "weight_kg",
+   "fieldtype": "Float",
+   "label": "Weight (kg)"
+  },
+  {
+   "fieldname": "bmi",
+   "fieldtype": "Float",
+   "label": "BMI"
+  },
+  {
+   "fieldname": "body_fat_percentage",
+   "fieldtype": "Float",
+   "label": "Body Fat (%)"
+  },
+  {
+   "fieldname": "muscle_mass_kg",
+   "fieldtype": "Float",
+   "label": "Muscle Mass (kg)"
+  },
+  {
+   "fieldname": "waist_cm",
+   "fieldtype": "Float",
+   "label": "Waist (cm)"
+  },
+  {
+   "fieldname": "hip_cm",
+   "fieldtype": "Float",
+   "label": "Hip (cm)"
+  },
+  {
+   "fieldname": "chest_cm",
+   "fieldtype": "Float",
+   "label": "Chest (cm)"
+  },
+  {
+   "fieldname": "arm_cm",
+   "fieldtype": "Float",
+   "label": "Arm (cm)"
+  },
+  {
+   "fieldname": "thigh_cm",
+   "fieldtype": "Float",
+   "label": "Thigh (cm)"
+  },
+  {
+   "fieldname": "resting_heart_rate",
+   "fieldtype": "Int",
+   "label": "Resting Heart Rate"
+  },
+  {
+   "fieldname": "blood_pressure",
+   "fieldtype": "Data",
+   "label": "Blood Pressure"
+  },
+  {
+   "fieldname": "measured_by",
+   "fieldtype": "Link",
+   "label": "Measured By",
+   "options": "Trainer Profile"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "HealthAssessment",
+ "name": "Body Metric Log",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

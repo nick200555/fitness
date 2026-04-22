@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "assessment_date",
+  "height_cm",
+  "initial_weight_kg",
+  "initial_bmi",
+  "primary_goal",
+  "activity_level",
+  "dietary_preference",
+  "existing_injuries",
+  "doctor_clearance",
+  "doctor_clearance_doc",
+  "par_q_completed"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "assessment_date",
+   "fieldtype": "Date",
+   "label": "Assessment Date"
+  },
+  {
+   "fieldname": "height_cm",
+   "fieldtype": "Float",
+   "label": "Height (cm)"
+  },
+  {
+   "fieldname": "initial_weight_kg",
+   "fieldtype": "Float",
+   "label": "Initial Weight (kg)"
+  },
+  {
+   "fieldname": "initial_bmi",
+   "fieldtype": "Float",
+   "label": "Initial BMI"
+  },
+  {
+   "fieldname": "primary_goal",
+   "fieldtype": "Select",
+   "label": "Primary Goal",
+   "options": "Weight Loss\nMuscle Gain\nEndurance\nFlexibility\nGeneral Wellness\nRehab"
+  },
+  {
+   "fieldname": "activity_level",
+   "fieldtype": "Select",
+   "label": "Activity Level",
+   "options": "Sedentary\nLightly Active\nModerately Active\nVery Active"
+  },
+  {
+   "fieldname": "dietary_preference",
+   "fieldtype": "Select",
+   "label": "Dietary Preference",
+   "options": "Vegetarian\nVegan\nNon-Vegetarian\nKeto\nOther"
+  },
+  {
+   "fieldname": "existing_injuries",
+   "fieldtype": "Long Text",
+   "label": "Existing Injuries"
+  },
+  {
+   "fieldname": "doctor_clearance",
+   "fieldtype": "Check",
+   "label": "Doctor Clearance"
+  },
+  {
+   "fieldname": "doctor_clearance_doc",
+   "fieldtype": "Attach",
+   "label": "Doctor Clearance Document"
+  },
+  {
+   "fieldname": "par_q_completed",
+   "fieldtype": "Check",
+   "label": "PAR-Q Completed"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "HealthAssessment",
+ "name": "Health Profile",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

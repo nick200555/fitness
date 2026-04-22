@@ -1,0 +1,87 @@
+[
+ {
+  "doctype": "Custom Field",
+  "dt": "Customer",
+  "fieldname": "is_fitness_member",
+  "fieldtype": "Check",
+  "label": "Is Fitness Member",
+  "insert_after": "customer_name"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Customer",
+  "fieldname": "member_profile",
+  "fieldtype": "Link",
+  "label": "Member Profile",
+  "options": "Member",
+  "insert_after": "is_fitness_member"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Customer",
+  "fieldname": "membership_status",
+  "fieldtype": "Data",
+  "label": "Membership Status",
+  "insert_after": "member_profile"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Employee",
+  "fieldname": "trainer_profile",
+  "fieldtype": "Link",
+  "label": "Trainer Profile",
+  "options": "Trainer Profile",
+  "insert_after": "employee_name"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Employee",
+  "fieldname": "trainer_specialization",
+  "fieldtype": "Data",
+  "label": "Trainer Specialization",
+  "insert_after": "trainer_profile"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Item",
+  "fieldname": "is_fitness_service",
+  "fieldtype": "Check",
+  "label": "Is Fitness Service",
+  "insert_after": "item_name"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Item",
+  "fieldname": "item_category_fitness",
+  "fieldtype": "Select",
+  "label": "Fitness Item Category",
+  "options": "Class\nPT\nDay Pass\nMerchandise\nCafe",
+  "insert_after": "is_fitness_service"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Sales Invoice",
+  "fieldname": "membership_period",
+  "fieldtype": "Data",
+  "label": "Membership Period",
+  "insert_after": "customer"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Sales Invoice",
+  "fieldname": "member_subscription",
+  "fieldtype": "Link",
+  "label": "Member Subscription",
+  "options": "Member Subscription",
+  "insert_after": "membership_period"
+ },
+ {
+  "doctype": "Custom Field",
+  "dt": "Asset",
+  "fieldname": "equipment_register",
+  "fieldtype": "Link",
+  "label": "Equipment Register",
+  "options": "Equipment Register",
+  "insert_after": "asset_name"
+ }
+]

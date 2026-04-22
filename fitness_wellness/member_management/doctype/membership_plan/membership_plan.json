@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plan_name",
+  "plan_code",
+  "duration_months",
+  "price",
+  "tax_template",
+  "plan_type",
+  "access_type",
+  "class_credits",
+  "guest_passes",
+  "personal_training_sessions",
+  "freeze_allowed_days",
+  "discount_on_renewal",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "plan_name",
+   "fieldtype": "Data",
+   "label": "Plan Name"
+  },
+  {
+   "fieldname": "plan_code",
+   "fieldtype": "Data",
+   "label": "Plan Code"
+  },
+  {
+   "fieldname": "duration_months",
+   "fieldtype": "Int",
+   "label": "Duration (Months)"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "tax_template",
+   "fieldtype": "Link",
+   "label": "Tax Template",
+   "options": "Sales Taxes and Charges Template"
+  },
+  {
+   "fieldname": "plan_type",
+   "fieldtype": "Select",
+   "label": "Plan Type",
+   "options": "Basic\nStandard\nPremium\nCorporate"
+  },
+  {
+   "fieldname": "access_type",
+   "fieldtype": "Select",
+   "label": "Access Type",
+   "options": "Gym Only\nGym + Pool\nAll Facilities"
+  },
+  {
+   "fieldname": "class_credits",
+   "fieldtype": "Int",
+   "label": "Class Credits"
+  },
+  {
+   "fieldname": "guest_passes",
+   "fieldtype": "Int",
+   "label": "Guest Passes"
+  },
+  {
+   "fieldname": "personal_training_sessions",
+   "fieldtype": "Int",
+   "label": "Personal Training Sessions"
+  },
+  {
+   "fieldname": "freeze_allowed_days",
+   "fieldtype": "Int",
+   "label": "Freeze Allowed Days"
+  },
+  {
+   "fieldname": "discount_on_renewal",
+   "fieldtype": "Float",
+   "label": "Discount on Renewal (%)"
+  },
+  {
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "MemberManagement",
+ "name": "Membership Plan",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

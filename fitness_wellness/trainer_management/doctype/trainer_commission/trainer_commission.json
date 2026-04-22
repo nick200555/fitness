@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "trainer",
+  "period_from",
+  "period_to",
+  "group_sessions_taken",
+  "pt_sessions_taken",
+  "gross_commission",
+  "tds_deducted",
+  "net_payable",
+  "journal_entry"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "TCOM-.YYYY.MM.-.####"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Link",
+   "label": "Trainer",
+   "options": "Trainer Profile"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From"
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "Period To"
+  },
+  {
+   "fieldname": "group_sessions_taken",
+   "fieldtype": "Int",
+   "label": "Group Sessions Taken"
+  },
+  {
+   "fieldname": "pt_sessions_taken",
+   "fieldtype": "Int",
+   "label": "PT Sessions Taken"
+  },
+  {
+   "fieldname": "gross_commission",
+   "fieldtype": "Currency",
+   "label": "Gross Commission"
+  },
+  {
+   "fieldname": "tds_deducted",
+   "fieldtype": "Currency",
+   "label": "TDS Deducted"
+  },
+  {
+   "fieldname": "net_payable",
+   "fieldtype": "Currency",
+   "label": "Net Payable"
+  },
+  {
+   "fieldname": "journal_entry",
+   "fieldtype": "Link",
+   "label": "Journal Entry",
+   "options": "Journal Entry"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "TrainerManagement",
+ "name": "Trainer Commission",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

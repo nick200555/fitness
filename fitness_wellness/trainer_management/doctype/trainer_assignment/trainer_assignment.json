@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "trainer",
+  "start_date",
+  "end_date",
+  "total_sessions_agreed",
+  "sessions_completed",
+  "sessions_remaining",
+  "session_frequency",
+  "focus_area",
+  "goal_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Link",
+   "label": "Trainer",
+   "options": "Trainer Profile"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "total_sessions_agreed",
+   "fieldtype": "Int",
+   "label": "Total Sessions Agreed"
+  },
+  {
+   "fieldname": "sessions_completed",
+   "fieldtype": "Int",
+   "label": "Sessions Completed"
+  },
+  {
+   "fieldname": "sessions_remaining",
+   "fieldtype": "Int",
+   "label": "Sessions Remaining"
+  },
+  {
+   "fieldname": "session_frequency",
+   "fieldtype": "Select",
+   "label": "Session Frequency",
+   "options": "Daily\n3x Week\n2x Week\nWeekly"
+  },
+  {
+   "fieldname": "focus_area",
+   "fieldtype": "Data",
+   "label": "Focus Area"
+  },
+  {
+   "fieldname": "goal_notes",
+   "fieldtype": "Text",
+   "label": "Goal Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "TrainerManagement",
+ "name": "Trainer Assignment",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

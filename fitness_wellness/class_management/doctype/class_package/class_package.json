@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "package_name",
+  "class_type",
+  "no_of_sessions",
+  "price",
+  "validity_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "package_name",
+   "fieldtype": "Data",
+   "label": "Package Name"
+  },
+  {
+   "fieldname": "class_type",
+   "fieldtype": "Link",
+   "label": "Class Type",
+   "options": "Class Type"
+  },
+  {
+   "fieldname": "no_of_sessions",
+   "fieldtype": "Int",
+   "label": "No of Sessions"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "validity_days",
+   "fieldtype": "Int",
+   "label": "Validity Days"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "ClassManagement",
+ "name": "Class Package",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

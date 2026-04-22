@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "goal_type",
+  "target_value",
+  "target_unit",
+  "target_date",
+  "baseline_value",
+  "current_value",
+  "progress_pct",
+  "status",
+  "trainer"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "goal_type",
+   "fieldtype": "Select",
+   "label": "Goal Type",
+   "options": "Weight Loss\nMuscle Gain\nEndurance\nStrength\nFlexibility\nEvent Prep"
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Float",
+   "label": "Target Value"
+  },
+  {
+   "fieldname": "target_unit",
+   "fieldtype": "Data",
+   "label": "Target Unit"
+  },
+  {
+   "fieldname": "target_date",
+   "fieldtype": "Date",
+   "label": "Target Date"
+  },
+  {
+   "fieldname": "baseline_value",
+   "fieldtype": "Float",
+   "label": "Baseline Value"
+  },
+  {
+   "fieldname": "current_value",
+   "fieldtype": "Float",
+   "label": "Current Value"
+  },
+  {
+   "fieldname": "progress_pct",
+   "fieldtype": "Float",
+   "label": "Progress (%)"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "In Progress\nAchieved\nMissed\nRevised"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Link",
+   "label": "Trainer",
+   "options": "Trainer Profile"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "HealthAssessment",
+ "name": "Fitness Goal",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

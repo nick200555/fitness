@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_number",
+  "vendor",
+  "start_date",
+  "end_date",
+  "annual_value",
+  "covered_equipment",
+  "service_visits_per_year",
+  "response_time_hours",
+  "purchase_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_number",
+   "fieldtype": "Data",
+   "label": "Contract Number"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "annual_value",
+   "fieldtype": "Currency",
+   "label": "Annual Value"
+  },
+  {
+   "fieldname": "covered_equipment",
+   "fieldtype": "Table",
+   "label": "Covered Equipment",
+   "options": "Equipment Row"
+  },
+  {
+   "fieldname": "service_visits_per_year",
+   "fieldtype": "Int",
+   "label": "Service Visits Per Year"
+  },
+  {
+   "fieldname": "response_time_hours",
+   "fieldtype": "Int",
+   "label": "Response Time (Hours)"
+  },
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Link",
+   "label": "Purchase Order",
+   "options": "Purchase Order"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "FacilityManagement",
+ "name": "AMC Contract",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "equipment",
+  "maintenance_date",
+  "maintenance_type",
+  "work_done",
+  "parts_replaced",
+  "cost",
+  "technician",
+  "downtime_hours",
+  "next_service_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "MLOG-.YYYY.-.####"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "label": "Equipment",
+   "options": "Equipment Register"
+  },
+  {
+   "fieldname": "maintenance_date",
+   "fieldtype": "Date",
+   "label": "Maintenance Date"
+  },
+  {
+   "fieldname": "maintenance_type",
+   "fieldtype": "Select",
+   "label": "Maintenance Type",
+   "options": "Preventive\nCorrective\nBreakdown"
+  },
+  {
+   "fieldname": "work_done",
+   "fieldtype": "Long Text",
+   "label": "Work Done"
+  },
+  {
+   "fieldname": "parts_replaced",
+   "fieldtype": "Long Text",
+   "label": "Parts Replaced"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Cost"
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Data",
+   "label": "Technician"
+  },
+  {
+   "fieldname": "downtime_hours",
+   "fieldtype": "Float",
+   "label": "Downtime Hours"
+  },
+  {
+   "fieldname": "next_service_date",
+   "fieldtype": "Date",
+   "label": "Next Service Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Completed\nPartial\nPending Follow-Up"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "FacilityManagement",
+ "name": "Maintenance Log",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "equipment",
+  "maintenance_type",
+  "frequency",
+  "last_done_date",
+  "next_due_date",
+  "assigned_to",
+  "vendor",
+  "estimated_duration_hours",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "label": "Equipment",
+   "options": "Equipment Register"
+  },
+  {
+   "fieldname": "maintenance_type",
+   "fieldtype": "Select",
+   "label": "Maintenance Type",
+   "options": "Preventive\nCorrective\nCalibration\nDeep Clean"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Daily\nWeekly\nMonthly\nQuarterly\nAnnual"
+  },
+  {
+   "fieldname": "last_done_date",
+   "fieldtype": "Date",
+   "label": "Last Done Date"
+  },
+  {
+   "fieldname": "next_due_date",
+   "fieldtype": "Date",
+   "label": "Next Due Date"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Select",
+   "label": "Assigned To",
+   "options": "In-House\nAMC Vendor"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "estimated_duration_hours",
+   "fieldtype": "Float",
+   "label": "Estimated Duration (Hours)"
+  },
+  {
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "FacilityManagement",
+ "name": "Maintenance Schedule",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

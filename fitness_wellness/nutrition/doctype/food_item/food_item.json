@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "autoname": "",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "food_name",
+  "food_group",
+  "serving_size_g",
+  "calories_per_serving",
+  "protein_g",
+  "carbs_g",
+  "fat_g",
+  "fibre_g",
+  "sodium_mg",
+  "is_veg",
+  "is_vegan",
+  "is_gluten_free"
+ ],
+ "fields": [
+  {
+   "fieldname": "food_name",
+   "fieldtype": "Data",
+   "label": "Food Name"
+  },
+  {
+   "fieldname": "food_group",
+   "fieldtype": "Select",
+   "label": "Food Group",
+   "options": "Grains\nProtein\nDairy\nFruits\nVegetables\nFats\nBeverages"
+  },
+  {
+   "fieldname": "serving_size_g",
+   "fieldtype": "Float",
+   "label": "Serving Size (g)"
+  },
+  {
+   "fieldname": "calories_per_serving",
+   "fieldtype": "Float",
+   "label": "Calories per Serving"
+  },
+  {
+   "fieldname": "protein_g",
+   "fieldtype": "Float",
+   "label": "Protein (g)"
+  },
+  {
+   "fieldname": "carbs_g",
+   "fieldtype": "Float",
+   "label": "Carbs (g)"
+  },
+  {
+   "fieldname": "fat_g",
+   "fieldtype": "Float",
+   "label": "Fat (g)"
+  },
+  {
+   "fieldname": "fibre_g",
+   "fieldtype": "Float",
+   "label": "Fibre (g)"
+  },
+  {
+   "fieldname": "sodium_mg",
+   "fieldtype": "Float",
+   "label": "Sodium (mg)"
+  },
+  {
+   "fieldname": "is_veg",
+   "fieldtype": "Check",
+   "label": "Is Veg"
+  },
+  {
+   "fieldname": "is_vegan",
+   "fieldtype": "Check",
+   "label": "Is Vegan"
+  },
+  {
+   "fieldname": "is_gluten_free",
+   "fieldtype": "Check",
+   "label": "Is Gluten Free"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Nutrition",
+ "name": "Food Item",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

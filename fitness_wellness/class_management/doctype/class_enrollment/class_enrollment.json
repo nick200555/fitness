@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-01-01 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "member",
+  "class_schedule",
+  "enrollment_date",
+  "session_date",
+  "status",
+  "credit_deducted",
+  "booking_source",
+  "cancellation_reason",
+  "cancellation_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "ENR-.YYYY.MM.DD.-.###"
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fieldname": "class_schedule",
+   "fieldtype": "Link",
+   "label": "Class Schedule",
+   "options": "Class Schedule"
+  },
+  {
+   "fieldname": "enrollment_date",
+   "fieldtype": "Date",
+   "label": "Enrollment Date"
+  },
+  {
+   "fieldname": "session_date",
+   "fieldtype": "Date",
+   "label": "Session Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Confirmed\nWaitlisted\nCancelled\nNo-Show"
+  },
+  {
+   "fieldname": "credit_deducted",
+   "fieldtype": "Check",
+   "label": "Credit Deducted"
+  },
+  {
+   "fieldname": "booking_source",
+   "fieldtype": "Select",
+   "label": "Booking Source",
+   "options": "App\nFront Desk\nPortal\nWalk-In"
+  },
+  {
+   "fieldname": "cancellation_reason",
+   "fieldtype": "Data",
+   "label": "Cancellation Reason"
+  },
+  {
+   "fieldname": "cancellation_time",
+   "fieldtype": "Datetime",
+   "label": "Cancellation Time"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "ClassManagement",
+ "name": "Class Enrollment",
+ "naming_rule": "By naming series",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
