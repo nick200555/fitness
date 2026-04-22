@@ -1,4 +1,17 @@
 include MANIFEST.in
-recursive-include fitness_wellness/templates *
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fitness_wellness *.py
+recursive-include fitness_wellness *.json
+recursive-include fitness_wellness *.js
+recursive-include fitness_wellness *.css
+recursive-include fitness_wellness *.html
+recursive-include fitness_wellness *.csv
+recursive-include fitness_wellness *.txt
 recursive-include fitness_wellness/public *
+recursive-include fitness_wellness/templates *
+recursive-include fitness_wellness/workspace *
 recursive-include fitness_wellness/fixtures *

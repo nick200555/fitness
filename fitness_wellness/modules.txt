@@ -1,0 +1,7 @@
+Member Management
+Class Management
+Trainer Management
+Health Assessment
+Nutrition
+Facility Management
+Billing
